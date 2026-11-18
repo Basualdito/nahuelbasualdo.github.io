@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Maqueta de desarrollo web responsive con HTML y CSS">
+  <defs>
+    <linearGradient id="webBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#fefce8"/>
+    </linearGradient>
+    <linearGradient id="navBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#132a4a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="380" rx="16" fill="url(#webBg)"/>
+
+  <!-- Ventana de navegador Desktop -->
+  <rect x="34" y="34" width="440" height="304" rx="12" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+  <rect x="34" y="34" width="440" height="34" rx="12" fill="#132a4a"/>
+  <rect x="34" y="54" width="440" height="14" fill="#132a4a"/>
+  <circle cx="56" cy="51" r="5" fill="#fef08a"/>
+  <circle cx="74" cy="51" r="5" fill="#93c5fd"/>
+  <circle cx="92" cy="51" r="5" fill="#60a5fa"/>
+  <rect x="122" y="43" width="220" height="16" rx="6" fill="#1e3a5f"/>
+  <text x="136" y="55" font-family="monospace" font-size="10" fill="#dbeafe">index.html — Diseño Responsive</text>
+
+  <!-- Contenido simulado -->
+  <rect x="54" y="84" width="400" height="84" rx="10" fill="url(#navBar)"/>
+  <rect x="72" y="102" width="170" height="14" rx="4" fill="#ffffff"/>
+  <rect x="72" y="124" width="240" height="9" rx="4" fill="#bfdbfe"/>
+  <rect x="72" y="140" width="94" height="18" rx="6" fill="#fef08a"/>
+  <rect x="350" y="98" width="84" height="56" rx="8" fill="#1e3a5f" stroke="#fef08a" stroke-opacity="0.7"/>
+
+  <!-- Grid de 3 cards -->
+  <rect x="54" y="186" width="122" height="128" rx="8" fill="#f8fafc" stroke="#dbeafe" stroke-width="1.5"/>
+  <rect x="66" y="200" width="98" height="44" rx="6" fill="#dbeafe"/>
+  <rect x="66" y="256" width="84" height="10" rx="4" fill="#1e3a5f"/>
+  <rect x="66" y="274" width="96" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="66" y="290" width="60" height="12" rx="4" fill="#fef9c3" stroke="#fde047"/>
+
+  <rect x="193" y="186" width="122" height="128" rx="8" fill="#f8fafc" stroke="#dbeafe" stroke-width="1.5"/>
+  <rect x="205" y="200" width="98" height="44" rx="6" fill="#fef9c3"/>
+  <rect x="205" y="256" width="84" height="10" rx="4" fill="#1e3a5f"/>
+  <rect x="205" y="274" width="96" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="205" y="290" width="60" height="12" rx="4" fill="#dbeafe"/>
+
+  <rect x="332" y="186" width="122" height="128" rx="8" fill="#f8fafc" stroke="#dbeafe" stroke-width="1.5"/>
+  <rect x="344" y="200" width="98" height="44" rx="6" fill="#dbeafe"/>
+  <rect x="344" y="256" width="84" height="10" rx="4" fill="#1e3a5f"/>
+  <rect x="344" y="274" width="96" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="344" y="290" width="60" height="12" rx="4" fill="#fef9c3" stroke="#fde047"/>
+
+  <!-- Vista Móvil superpuesta -->
+  <rect x="444" y="92" width="162" height="258" rx="18" fill="#0f172a" stroke="#1d4ed8" stroke-width="2.5"/>
+  <rect x="498" y="104" width="54" height="6" rx="3" fill="#334155"/>
+  <rect x="456" y="120" width="138" height="214" rx="10" fill="#ffffff"/>
+  <rect x="466" y="132" width="118" height="58" rx="8" fill="#132a4a"/>
+  <rect x="476" y="144" width="76" height="10" rx="3" fill="#ffffff"/>
+  <rect x="476" y="162" width="56" height="14" rx="4" fill="#fef08a"/>
+  <rect x="466" y="202" width="118" height="54" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <rect x="466" y="266" width="118" height="54" rx="8" fill="#fefce8" stroke="#fef08a"/>
+
+  <!-- Badges inferiores -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="11.5">
+    <rect x="34" y="346" width="92" height="22" rx="6" fill="#132a4a"/>
+    <text x="80" y="361" text-anchor="middle" fill="#fef08a">HTML5</text>
+    <rect x="134" y="346" width="88" height="22" rx="6" fill="#1d4ed8"/>
+    <text x="178" y="361" text-anchor="middle" fill="#ffffff">CSS3 Grid</text>
+    <rect x="230" y="346" width="112" height="22" rx="6" fill="#fef9c3" stroke="#fde047"/>
+    <text x="286" y="361" text-anchor="middle" fill="#713f12">Mobile-First</text>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Esquema técnico de autito seguidor de línea">
+  <defs>
+    <linearGradient id="skyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#172f54"/>
+    </linearGradient>
+    <linearGradient id="carBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="380" rx="16" fill="url(#skyBg)"/>
+
+  <!-- Cuadrícula técnica de fondo -->
+  <g stroke="#93c5fd" stroke-opacity="0.09" stroke-width="1">
+    <path d="M0 60 H640 M0 120 H640 M0 180 H640 M0 240 H640 M0 300 H640"/>
+    <path d="M80 0 V380 M160 0 V380 M240 0 V380 M320 0 V380 M400 0 V380 M480 0 V380 M560 0 V380"/>
+  </g>
+
+  <!-- Pista de circuito -->
+  <path d="M50 300 C 140 300, 150 110, 290 110 C 420 110, 410 265, 590 250" fill="none" stroke="#dbeafe" stroke-opacity="0.2" stroke-width="54" stroke-linecap="round"/>
+  <path d="M50 300 C 140 300, 150 110, 290 110 C 420 110, 410 265, 590 250" fill="none" stroke="#090d16" stroke-width="14" stroke-linecap="round"/>
+  <path d="M50 300 C 140 300, 150 110, 290 110 C 420 110, 410 265, 590 250" fill="none" stroke="#fef08a" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Autito seguidor de línea sobre la curva -->
+  <g transform="translate(290, 110) rotate(8)">
+    <!-- Ruedas -->
+    <rect x="-46" y="-42" width="28" height="12" rx="4" fill="#0b1324" stroke="#93c5fd" stroke-width="1.5"/>
+    <rect x="-46" y="30" width="28" height="12" rx="4" fill="#0b1324" stroke="#93c5fd" stroke-width="1.5"/>
+    <!-- Chasis -->
+    <rect x="-56" y="-32" width="112" height="64" rx="12" fill="url(#carBody)" stroke="#93c5fd" stroke-width="2"/>
+    <!-- Placa controladora -->
+    <rect x="-36" y="-20" width="54" height="40" rx="6" fill="#0f172a" stroke="#fef08a" stroke-width="1.5"/>
+    <circle cx="-18" cy="-6" r="4" fill="#fde047"/>
+    <circle cx="-4" cy="-6" r="4" fill="#60a5fa"/>
+    <rect x="-26" y="6" width="34" height="7" rx="2" fill="#1e3a8a"/>
+    <!-- Módulo frontal de sensores IR -->
+    <rect x="44" y="-26" width="22" height="52" rx="5" fill="#1e293b" stroke="#fef08a" stroke-width="1.5"/>
+    <circle cx="58" cy="-14" r="4" fill="#fde047"/>
+    <circle cx="58" cy="0" r="4" fill="#fde047"/>
+    <circle cx="58" cy="14" r="4" fill="#60a5fa"/>
+    <!-- Haz de lectura IR -->
+    <polygon points="66,-16 94,-24 94,-6" fill="#fef08a" fill-opacity="0.28"/>
+    <polygon points="66,0 96,-6 96,6" fill="#fef08a" fill-opacity="0.4"/>
+    <polygon points="66,16 94,6 94,24" fill="#60a5fa" fill-opacity="0.25"/>
+  </g>
+
+  <!-- Etiquetas técnicas -->
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <rect x="28" y="24" width="218" height="34" rx="8" fill="#1e3a5f" stroke="#fef08a" stroke-opacity="0.5"/>
+    <circle cx="46" cy="41" r="5" fill="#fde047"/>
+    <text x="58" y="46" font-size="13" font-weight="700" fill="#fef9c3">SEGUIDOR DE LÍNEA IR</text>
+
+    <rect x="405" y="34" width="205" height="66" rx="10" fill="#0f172a" fill-opacity="0.9" stroke="#3b82f6" stroke-opacity="0.5"/>
+    <text x="421" y="57" font-size="12" font-weight="700" fill="#93c5fd">CALIBRACIÓN EN PISTA</text>
+    <text x="421" y="75" font-size="11.5" fill="#e2e8f0">Sensores IR • Control PWM</text>
+    <text x="421" y="90" font-size="11.5" fill="#fef08a">Corrección automática en curvas</text>
+
+    <rect x="28" y="324" width="250" height="34" rx="8" fill="#0f172a" fill-opacity="0.88" stroke="#3b82f6" stroke-opacity="0.45"/>
+    <text x="44" y="345" font-size="12" font-weight="600" fill="#dbeafe">Motores DC + Chasis Liviano + Lógica C/Arduino</text>
+  </g>
+</svg>

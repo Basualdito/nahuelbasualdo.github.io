@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Diagrama de robots básicos y prototipos educativos">
+  <defs>
+    <linearGradient id="robBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b192c"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="380" rx="16" fill="url(#robBg)"/>
+
+  <!-- Líneas de circuito decorativas -->
+  <g stroke="#60a5fa" stroke-opacity="0.22" stroke-width="2" fill="none">
+    <path d="M40 80 H150 L180 110 H240"/>
+    <path d="M40 300 H140 L170 270 H240"/>
+    <path d="M600 95 H490 L460 125 H400"/>
+    <path d="M600 285 H490 L460 255 H400"/>
+  </g>
+  <g fill="#fde047">
+    <circle cx="40" cy="80" r="4"/>
+    <circle cx="40" cy="300" r="4"/>
+    <circle cx="600" cy="95" r="4"/>
+    <circle cx="600" cy="285" r="4"/>
+  </g>
+
+  <!-- Placa / Robot central -->
+  <rect x="210" y="75" width="220" height="230" rx="18" fill="#0f172a" stroke="#93c5fd" stroke-width="2.5"/>
+  <!-- Sensor ultrasónico superior -->
+  <rect x="255" y="48" width="130" height="42" rx="10" fill="#1d4ed8" stroke="#fef08a" stroke-width="2"/>
+  <circle cx="292" cy="69" r="14" fill="#0f172a" stroke="#dbeafe" stroke-width="2"/>
+  <circle cx="292" cy="69" r="6" fill="#fef08a"/>
+  <circle cx="348" cy="69" r="14" fill="#0f172a" stroke="#dbeafe" stroke-width="2"/>
+  <circle cx="348" cy="69" r="6" fill="#fef08a"/>
+
+  <!-- Microcontrolador -->
+  <rect x="252" y="122" width="136" height="92" rx="10" fill="#132a4a" stroke="#60a5fa" stroke-width="1.5"/>
+  <rect x="292" y="146" width="56" height="44" rx="6" fill="#0b192c" stroke="#fef08a" stroke-width="1.5"/>
+  <text x="320" y="172" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#fef9c3">MCU</text>
+
+  <!-- Pines y driver de motores -->
+  <rect x="242" y="234" width="156" height="48" rx="8" fill="#1e293b" stroke="#93c5fd" stroke-opacity="0.6"/>
+  <circle cx="268" cy="258" r="7" fill="#3b82f6"/>
+  <circle cx="296" cy="258" r="7" fill="#fde047"/>
+  <circle cx="344" cy="258" r="7" fill="#fde047"/>
+  <circle cx="372" cy="258" r="7" fill="#3b82f6"/>
+
+  <!-- Etiquetas -->
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <rect x="34" y="150" width="144" height="68" rx="10" fill="#132a4a" stroke="#fef08a" stroke-opacity="0.45"/>
+    <text x="50" y="175" font-size="12" font-weight="700" fill="#fef08a">SENSORES</text>
+    <text x="50" y="194" font-size="11" fill="#e2e8f0">Distancia + IR</text>
+    <text x="50" y="209" font-size="11" fill="#93c5fd">Lectura continua</text>
+
+    <rect x="462" y="150" width="144" height="68" rx="10" fill="#132a4a" stroke="#60a5fa" stroke-opacity="0.5"/>
+    <text x="478" y="175" font-size="12" font-weight="700" fill="#93c5fd">ACTUADORES</text>
+    <text x="478" y="194" font-size="11" fill="#e2e8f0">Motores + Driver</text>
+    <text x="478" y="209" font-size="11" fill="#fef08a">Tracción estable</text>
+  </g>
+</svg>

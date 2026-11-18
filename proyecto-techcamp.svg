@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="640" height="380" role="img" aria-label="Esquema de aplicación empresarial diseñada en Tech Camp UCC 2026">
+  <defs>
+    <linearGradient id="tcBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eff6ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="380" rx="16" fill="url(#tcBg)"/>
+
+  <!-- Tarjeta principal de App -->
+  <rect x="42" y="34" width="556" height="312" rx="14" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+  <rect x="42" y="34" width="164" height="312" rx="14" fill="#132a4a"/>
+  <rect x="190" y="34" width="16" height="312" fill="#132a4a"/>
+
+  <!-- Sidebar de la App -->
+  <rect x="64" y="58" width="120" height="28" rx="8" fill="#1d4ed8"/>
+  <text x="124" y="76" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" font-weight="700" fill="#fef08a">TECH CAMP UCC</text>
+
+  <rect x="64" y="108" width="120" height="24" rx="6" fill="#1e3a5f"/>
+  <rect x="64" y="144" width="104" height="16" rx="5" fill="#334155"/>
+  <rect x="64" y="172" width="112" height="16" rx="5" fill="#334155"/>
+  <rect x="64" y="200" width="96" height="16" rx="5" fill="#334155"/>
+  <rect x="64" y="290" width="120" height="32" rx="8" fill="#fef9c3"/>
+  <text x="124" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#713f12">Equipo 2026</text>
+
+  <!-- Panel derecho -->
+  <text x="230" y="74" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#0f172a">Prototipo de Aplicación Empresarial</text>
+  <text x="230" y="94" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Diseño de flujo, UX y propuesta funcional • Universidad Católica de Córdoba</text>
+
+  <!-- Métricas / Módulos -->
+  <rect x="230" y="114" width="164" height="76" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="246" y="140" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">MÓDULO 01</text>
+  <text x="246" y="160" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Gestión Operativa</text>
+  <rect x="246" y="170" width="96" height="6" rx="3" fill="#93c5fd"/>
+
+  <rect x="410" y="114" width="164" height="76" rx="10" fill="#fefce8" stroke="#fde047"/>
+  <text x="426" y="140" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#713f12">MÓDULO 02</text>
+  <text x="426" y="160" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Interfaz Clara</text>
+  <rect x="426" y="170" width="96" height="6" rx="3" fill="#facc15"/>
+
+  <!-- Lista de tareas / flujo -->
+  <rect x="230" y="208" width="344" height="114" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <circle cx="252" cy="236" r="6" fill="#2563eb"/>
+  <rect x="268" y="231" width="210" height="10" rx="4" fill="#1e293b"/>
+  <circle cx="252" cy="266" r="6" fill="#eab308"/>
+  <rect x="268" y="261" width="260" height="10" rx="4" fill="#475569"/>
+  <circle cx="252" cy="296" r="6" fill="#2563eb"/>
+  <rect x="268" y="291" width="180" height="10" rx="4" fill="#475569"/>
+</svg>
