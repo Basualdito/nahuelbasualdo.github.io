@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio personal de Braian Nahuel Basualdo — Estudiante de 6.º año de Informática en Córdoba. Robótica educativa, autitos seguidores de línea, páginas web, soporte técnico y competencias.">
+  <title>Braian Nahuel Basualdo | Portfolio Personal</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <!-- Barra superior de progreso de lectura -->
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Enlace de salto accesible -->
+  <a class="skip-link" href="#inicio">Saltar al contenido principal</a>
+
+  <!-- Encabezado y navegación -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Inicio del portfolio de Braian Nahuel Basualdo">
+        <span class="brand-mark" aria-hidden="true">BB</span>
+        <span class="brand-text">
+          <strong>Braian Basualdo</strong>
+          <small>6.º Año Informática • Córdoba</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-principal"
+        aria-label="Abrir menú de navegación">
+        <span class="menu-line" aria-hidden="true"></span>
+        <span class="menu-line" aria-hidden="true"></span>
+        <span class="menu-line" aria-hidden="true"></span>
+      </button>
+
+      <nav id="nav-principal" class="site-nav" aria-label="Navegación principal">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#competencias" class="nav-link">Competencias</a>
+        <a href="#habilidades" class="nav-link">Habilidades</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero-section">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <div class="hero-pill anim-hero" style="--hero-delay: 0.04s;">
+            <span class="pill-dot" aria-hidden="true"></span>
+            <span>6.º Año Informática • Instituto Privado Mixto San Agustín</span>
+          </div>
+
+          <h1 class="hero-title anim-hero" style="--hero-delay: 0.12s;">
+            Braian Nahuel <span class="text-accent">Basualdo</span>
+          </h1>
+
+          <p class="hero-lead anim-hero" style="--hero-delay: 0.22s;">
+            Estudiante de Informática en Córdoba (18 años) con trayectoria destacada en <strong>robótica educativa</strong>, <strong>desarrollo web</strong> y <strong>armado y mantenimiento de PC</strong>. Participante en competencias como Copa Robótica, Iron Bot y Tech Camp UCC, además de apasionado por el entrenamiento físico.
+          </p>
+
+          <div class="hero-actions anim-hero" style="--hero-delay: 0.32s;">
+            <a href="#proyectos" class="btn btn-primary">Explorar proyectos</a>
+            <a href="assets/docs/cv-braian-basualdo.pdf" target="_blank" rel="noopener" class="btn btn-soft">Ver currículum</a>
+            <a href="#contacto" class="btn btn-outline">Contactarme</a>
+          </div>
+
+          <ul class="hero-metrics anim-hero" style="--hero-delay: 0.42s;" aria-label="Resumen rápido">
+            <li>
+              <strong>Cuadro de Honor</strong>
+              <span>Promedios destacados desde 1.º año</span>
+            </li>
+            <li>
+              <strong>Robótica &amp; Web</strong>
+              <span>Seguidores de línea, robots y HTML/CSS</span>
+            </li>
+            <li>
+              <strong>3 Competencias</strong>
+              <span>Copa Robótica, Iron Bot y Tech Camp UCC</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Ficha técnica visual (sin foto) -->
+        <aside class="hero-spec anim-hero-card" style="--hero-delay: 0.18s;" aria-label="Ficha rápida de perfil">
+          <div class="spec-card">
+            <div class="spec-header">
+              <div class="spec-monogram" aria-hidden="true">BB</div>
+              <div>
+                <span class="spec-tag">Perfil Técnico &amp; Personal</span>
+                <h2>Braian N. Basualdo</h2>
+              </div>
+            </div>
+
+            <dl class="spec-list">
+              <div>
+                <dt>Ubicación</dt>
+                <dd>Córdoba, Argentina (18 años)</dd>
+              </div>
+              <div>
+                <dt>Formación</dt>
+                <dd>6.º Año · Informática — Inst. San Agustín</dd>
+              </div>
+              <div>
+                <dt>Áreas Tech</dt>
+                <dd>Robótica básica, Web (HTML/CSS) y Soporte PC</dd>
+              </div>
+              <div>
+                <dt>Área Física</dt>
+                <dd>Entrenamiento (1–3 años) y armado de rutinas</dd>
+              </div>
+            </dl>
+
+            <div class="spec-footer">
+              <span class="status-badge">Abierto a oportunidades laborales y proyectos</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Sección Sobre mí -->
+    <section id="sobre-mi" class="section">
+      <div class="container">
+        <div class="section-header reveal-block">
+          <span class="section-kicker">Perfil Personal y Trayectoria</span>
+          <h2>Sobre mí</h2>
+          <p class="section-intro">
+            Combino formación técnica escolar con excelencia académica, práctica real en hardware, robótica y desarrollo web, junto con disciplina constante en entrenamiento físico.
+          </p>
+        </div>
+
+        <div class="bento-about">
+          <article class="bento-card bento-main reveal-block" style="--delay: 0.06s;">
+            <span class="card-eyebrow">Perfil &amp; Objetivo</span>
+            <h3>Compromiso técnico y aprendizaje continuo</h3>
+            <p>
+              Curso el <strong>6.º año de Informática</strong> en el <strong>Instituto Privado Mixto San Agustín</strong>, manteniendo promedios destacados desde 1.º año y reconocimiento en el <strong>cuadro de honor</strong>. Me caracterizo por ser responsable, comunicativo y resolutivo frente a problemas técnicos o de equipo.
+            </p>
+            <p>
+              En el plano laboral, busco una primera oportunidad donde aportar compromiso, aprender y sumar experiencia: tanto en entornos vinculados a la <strong>tecnología y soporte técnico</strong> como en mi interés por el <strong>entrenamiento físico</strong> (puesto inicial como ayudante de salón o asistente en gimnasio).
+            </p>
+          </article>
+
+          <article class="bento-card reveal-block" style="--delay: 0.14s;">
+            <span class="card-eyebrow">Experiencia Práctica</span>
+            <h3>Armado y mantenimiento de PC</h3>
+            <p class="card-subtitle">Experiencia informal realizando soporte para distintas personas:</p>
+            <ul class="check-list">
+              <li>Armado y desarmado completo de PC de escritorio y notebooks.</li>
+              <li>Diagnóstico de fallas técnicas y cambio de componentes.</li>
+              <li>Instalación de sistemas operativos, drivers y aplicaciones.</li>
+              <li>Limpieza interna, mantenimiento preventivo y optimización.</li>
+            </ul>
+          </article>
+
+          <article class="bento-card reveal-block" style="--delay: 0.2s;">
+            <span class="card-eyebrow">Área Complementaria</span>
+            <h3>Entrenamiento físico y rutinas</h3>
+            <p>
+              Entreno de forma constante desde hace <strong>entre 1 y 3 años</strong>. Tengo experiencia práctica preparando rutinas y haciendo seguimiento del progreso junto a otras personas.
+            </p>
+            <p class="note-muted">
+              Aclaración transparente: todavía no cuento con formación específica ni certificaciones oficiales como entrenador, pero sigo capacitándome y practicando activamente.
+            </p>
+          </article>
+
+          <article class="bento-card bento-accent reveal-block" style="--delay: 0.26s;">
+            <span class="card-eyebrow">Disponibilidad &amp; Datos</span>
+            <h3>Idiomas</h3>
+            <ul class="schedule-list">
+              <li>
+                <strong>Idiomas</strong>
+                <span>Español (nativo) • Inglés (básico)</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="section section-tinted">
+      <div class="container">
+        <div class="section-header reveal-block">
+          <span class="section-kicker">Trabajos y Prototipos</span>
+          <h2>Proyectos</h2>
+          <p class="section-intro">
+            Desarrollo de autitos seguidores de línea, robots básicos, páginas web y diseño de aplicaciones en equipo, documentando el desafío técnico y lo aprendido en cada etapa.
+          </p>
+        </div>
+
+        <div class="filter-bar reveal-block" role="group" aria-label="Filtrar proyectos por categoría">
+          <button type="button" class="filter-btn active" data-filter="todos">Todos</button>
+          <button type="button" class="filter-btn" data-filter="robotica">Robótica</button>
+          <button type="button" class="filter-btn" data-filter="web">Páginas Web</button>
+          <button type="button" class="filter-btn" data-filter="apps">Diseño de Apps</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Proyecto 1: Autitos Seguidores de Línea -->
+          <article class="project-card reveal-block" data-category="robotica" style="--delay: 0.06s;">
+            <div class="project-media">
+              <img
+                src="assets/img/proyecto-seguidor-linea.svg"
+                alt="Diagrama técnico de autito seguidor de línea con sensores infrarrojos y motores"
+                width="640"
+                height="380"
+                loading="lazy">
+              <span class="project-index">01</span>
+              <span class="project-badge">Robótica</span>
+            </div>
+            <div class="project-body">
+              <h3>Autitos Seguidores de Línea</h3>
+              <dl class="project-details">
+                <div>
+                  <dt>Desafío</dt>
+                  <dd>Diseñar y poner a punto vehículos autónomos capaces de recorrer pistas con curvas cerradas y cambios de luz sin salirse del trazado.</dd>
+                </div>
+                <div>
+                  <dt>Implementación</dt>
+                  <dd>Ensamblaje de chasis liviano, montaje frontal de sensores infrarrojos (IR), cableado ordenado y programación de corrección diferencial en motores.</dd>
+                </div>
+                <div>
+                  <dt>Rol</dt>
+                  <dd>Participación activa en programación de lectura de sensores, calibración en pista y ajustes creativos del prototipo en equipo.</dd>
+                </div>
+                <div>
+                  <dt>Herramientas</dt>
+                  <dd>Sensores IR, motores DC, placa controladora, lógica condicional y pruebas iterativas sobre circuito.</dd>
+                </div>
+                <div>
+                  <dt>Evidencia</dt>
+                  <dd>
+                    <button
+                      type="button"
+                      class="evidence-btn"
+                      data-modal-title="Autitos Seguidores de Línea — Esquema de Pista y Sensores"
+                      data-modal-img="assets/img/proyecto-seguidor-linea.svg"
+                      data-modal-desc="Los sensores IR frontales leen el contraste de la línea negra sobre la pista clara y envían señales a la placa para regular la velocidad de cada motor en las curvas.">
+                      Ver diagrama técnico
+                    </button>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Aprendizaje</dt>
+                  <dd>Comprobé la importancia de calibrar bien la altura de los sensores y probar cada cambio mecánico junto al código.</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <!-- Proyecto 2: Páginas Web -->
+          <article class="project-card reveal-block" data-category="web" style="--delay: 0.12s;">
+            <div class="project-media">
+              <img
+                src="assets/img/proyecto-web.svg"
+                alt="Maqueta visual de desarrollo de páginas web responsive con HTML5 y CSS3"
+                width="640"
+                height="380"
+                loading="lazy">
+              <span class="project-index">02</span>
+              <span class="project-badge">Páginas Web</span>
+            </div>
+            <div class="project-body">
+              <h3>Desarrollo de Páginas Web (HTML &amp; CSS)</h3>
+              <dl class="project-details">
+                <div>
+                  <dt>Desafío</dt>
+                  <dd>Construir sitios web claros, ordenados y adaptables tanto a computadoras como a celulares utilizando código limpio desde cero.</dd>
+                </div>
+                <div>
+                  <dt>Implementación</dt>
+                  <dd>Maquetación con HTML5 semántico, hojas de estilo en CSS3 con Flexbox y Grid, tipografía jerarquizada y paletas de alto contraste.</dd>
+                </div>
+                <div>
+                  <dt>Rol</dt>
+                  <dd>Diseño de estructura de contenidos, armado de secciones navegables, estilizado visual y verificación en distintos anchos de pantalla.</dd>
+                </div>
+                <div>
+                  <dt>Herramientas</dt>
+                  <dd>HTML5, CSS3, diseño responsive mobile-first, edición visual y publicación estática.</dd>
+                </div>
+                <div>
+                  <dt>Evidencia</dt>
+                  <dd>
+                    <button
+                      type="button"
+                      class="evidence-btn"
+                      data-modal-title="Desarrollo Web — Maquetación Semántica y Responsive"
+                      data-modal-img="assets/img/proyecto-web.svg"
+                      data-modal-desc="Estructura adaptable entre escritorio y dispositivos móviles usando HTML5 semántico, Flexbox, CSS Grid y variables de diseño para mantener coherencia visual.">
+                      Ver maqueta responsive
+                    </button>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Aprendizaje</dt>
+                  <dd>Consolidé cómo organizar bloques semánticos y separar estructura (HTML) de presentación (CSS) para mantener proyectos fáciles de actualizar.</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <!-- Proyecto 3: Robots Básicos -->
+          <article class="project-card reveal-block" data-category="robotica" style="--delay: 0.18s;">
+            <div class="project-media">
+              <img
+                src="assets/img/proyecto-robots-basicos.svg"
+                alt="Esquema de robots básicos educativos con sensores y actuadores"
+                width="640"
+                height="380"
+                loading="lazy">
+              <span class="project-index">03</span>
+              <span class="project-badge">Robótica</span>
+            </div>
+            <div class="project-body">
+              <h3>Robots Básicos y Prototipos Educativos</h3>
+              <dl class="project-details">
+                <div>
+                  <dt>Desafío</dt>
+                  <dd>Armar plataformas robóticas iniciales capaces de interactuar con el entorno mediante sensores y ejecutar secuencias autónomas confiables.</dd>
+                </div>
+                <div>
+                  <dt>Implementación</dt>
+                  <dd>Integración de chasis, drivers de motor, módulos de detección de obstáculos y pruebas eléctricas paso a paso para evitar fallos de conexión.</dd>
+                </div>
+                <div>
+                  <dt>Rol</dt>
+                  <dd>Armado físico, diagnóstico de conexiones, programación básica de movimientos y resolución de inconvenientes durante las pruebas.</dd>
+                </div>
+                <div>
+                  <dt>Herramientas</dt>
+                  <dd>Microcontroladores educativos, sensores básicos (distancia/IR), motores, drivers y fuentes de alimentación.</dd>
+                </div>
+                <div>
+                  <dt>Evidencia</dt>
+                  <dd>
+                    <button
+                      type="button"
+                      class="evidence-btn"
+                      data-modal-title="Robots Básicos — Arquitectura de Sensores y Actuadores"
+                      data-modal-img="assets/img/proyecto-robots-basicos.svg"
+                      data-modal-desc="Integración modular entre sensores de entrada, placa microcontroladora y etapa de potencia para motores en prototipos escolares y de competencia.">
+                      Ver arquitectura del robot
+                    </button>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Aprendizaje</dt>
+                  <dd>Aprendí a diagnosticar rápido si una falla viene del cableado, la batería o la lógica del programa.</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <!-- Proyecto 4: Diseño de App en Tech Camp UCC -->
+          <article class="project-card reveal-block" data-category="apps" style="--delay: 0.24s;">
+            <div class="project-media">
+              <img
+                src="assets/img/proyecto-techcamp.svg"
+                alt="Esquema de interfaz de aplicación empresarial diseñada en Tech Camp UCC 2026"
+                width="640"
+                height="380"
+                loading="lazy">
+              <span class="project-index">04</span>
+              <span class="project-badge">Tech Camp UCC</span>
+            </div>
+            <div class="project-body">
+              <h3>Diseño de Aplicación Empresarial — Tech Camp UCC</h3>
+              <dl class="project-details">
+                <div>
+                  <dt>Desafío</dt>
+                  <dd>Relevar una necesidad concreta de una empresa real y diseñar en equipo una propuesta de aplicación funcional en tiempo acotado.</dd>
+                </div>
+                <div>
+                  <dt>Implementación</dt>
+                  <dd>Definición de pantallas clave, flujo de uso intuitivo y presentación grupal de la solución tecnológica pensada para el usuario final.</dd>
+                </div>
+                <div>
+                  <dt>Rol</dt>
+                  <dd>Colaboración en ideación, diseño funcional de la app, organización del flujo de pantallas y trabajo coordinado en equipo.</dd>
+                </div>
+                <div>
+                  <dt>Herramientas</dt>
+                  <dd>Metodología de trabajo colaborativo, prototipado de interfaces, herramientas de IA y presentación digital.</dd>
+                </div>
+                <div>
+                  <dt>Evidencia</dt>
+                  <dd>
+                    <button
+                      type="button"
+                      class="evidence-btn"
+                      data-modal-title="Tech Camp UCC 2026 — Prototipo de App para Empresa"
+                      data-modal-img="assets/img/proyecto-techcamp.svg"
+                      data-modal-desc="Esquema conceptual del proyecto realizado en el Tech Camp 2026 de la Universidad Católica de Córdoba: diseño modular orientado a agilizar la gestión diaria de una empresa.">
+                      Ver esquema de propuesta
+                    </button>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Aprendizaje</dt>
+                  <dd>Mejoré la comunicación en equipo bajo plazos reales y entendí cómo alinear la tecnología con necesidades concretas de una empresa.</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Competencias y Logros -->
+    <section id="competencias" class="section">
+      <div class="container">
+        <div class="section-header reveal-block">
+          <span class="section-kicker">Participaciones &amp; Méritos</span>
+          <h2>Competencias y Logros</h2>
+          <p class="section-intro">
+            Instancias provinciales, experiencias universitarias de innovación y reconocimiento académico sostenido durante toda la secundaria.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          <article class="achievement-card reveal-block" style="--delay: 0.06s;">
+            <div class="achievement-top">
+              <span class="achievement-badge">Semifinales • 2026</span>
+              <span class="achievement-place">Córdoba</span>
+            </div>
+            <h3>Copa Robótica 2026</h3>
+            <p>
+              Participación en equipo alcanzando la instancia de <strong>semifinales</strong>. Aporté en tareas de programación de los prototipos y en el desarrollo de la parte creativa del proyecto.
+            </p>
+            <div class="achievement-tags">
+              <span class="tag tag-yellow">Semifinalista</span>
+              <span class="tag tag-blue">Programación</span>
+              <span class="tag">Creatividad en equipo</span>
+            </div>
+          </article>
+
+          <article class="achievement-card reveal-block" style="--delay: 0.12s;">
+            <div class="achievement-top">
+              <span class="achievement-badge">Competencia Provincial</span>
+              <span class="achievement-place">Córdoba</span>
+            </div>
+            <h3>Iron Bot Córdoba</h3>
+            <p>
+              Participación en competencia de robótica poniendo a prueba autitos seguidores de línea y robots básicos en pista real, calibrando respuesta y estabilidad bajo presión.
+            </p>
+            <div class="achievement-tags">
+              <span class="tag tag-yellow">Robótica competitiva</span>
+              <span class="tag tag-blue">Pruebas en pista</span>
+              <span class="tag">Calibración</span>
+            </div>
+          </article>
+
+          <article class="achievement-card reveal-block" style="--delay: 0.18s;">
+            <div class="achievement-top">
+              <span class="achievement-badge">Experiencia Universitaria • 2026</span>
+              <span class="achievement-place">UCC Córdoba</span>
+            </div>
+            <h3>Tech Camp 2026 · Universidad Católica de Córdoba</h3>
+            <p>
+              Participación en una experiencia intensiva de trabajo en equipo que incluyó el <strong>diseño de una aplicación para una empresa</strong>, integrando visión técnica y solución de problemas.
+            </p>
+            <div class="achievement-tags">
+              <span class="tag tag-yellow">Diseño de App</span>
+              <span class="tag tag-blue">Trabajo en equipo</span>
+              <span class="tag">Caso empresarial</span>
+            </div>
+          </article>
+
+          <article class="achievement-card reveal-block" style="--delay: 0.24s;">
+            <div class="achievement-top">
+              <span class="achievement-badge">Mérito Académico</span>
+              <span class="achievement-place">1.º a 6.º Año</span>
+            </div>
+            <h3>Cuadro de Honor — Instituto San Agustín</h3>
+            <p>
+              Reconocimiento por <strong>promedios destacados desde 1.º año</strong> en el Instituto Privado Mixto San Agustín (orientación Informática), reflejando constancia y responsabilidad.
+            </p>
+            <div class="achievement-tags">
+              <span class="tag tag-yellow">Cuadro de Honor</span>
+              <span class="tag tag-blue">Informática</span>
+              <span class="tag">Constancia</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="section section-tinted">
+      <div class="container">
+        <div class="section-header reveal-block">
+          <span class="section-kicker">Stack &amp; Aptitudes</span>
+          <h2>Habilidades y Conocimientos</h2>
+          <p class="section-intro">
+            Conocimientos informáticos técnicos, práctica en robótica y soporte, y habilidades personales construidas en proyectos reales y entrenamiento diario.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-block reveal-block" style="--delay: 0.06s;">
+            <h3>Informática &amp; Desarrollo Web</h3>
+            <p class="skill-desc">Herramientas digitales, soporte técnico y bases de programación web.</p>
+            <ul class="tag-list">
+              <li class="tag tag-blue">HTML y CSS (Desarrollo Web)</li>
+              <li class="tag tag-blue">Armado y Diagnóstico de PC</li>
+              <li class="tag">Instalación de SO y Aplicaciones</li>
+              <li class="tag">Redes Informáticas</li>
+              <li class="tag">Word, Excel y PowerPoint</li>
+              <li class="tag">Herramientas de IA</li>
+              <li class="tag">Edición de Imágenes y Videos</li>
+            </ul>
+          </div>
+
+          <div class="skill-block reveal-block" style="--delay: 0.14s;">
+            <h3>Robótica &amp; Competencias</h3>
+            <p class="skill-desc">Diseño, armado y puesta a punto de prototipos escolares y competitivos.</p>
+            <ul class="tag-list">
+              <li class="tag tag-yellow">Autitos Seguidores de Línea</li>
+              <li class="tag tag-yellow">Robots Básicos</li>
+              <li class="tag">Sensores Infrarrojos y Calibración</li>
+              <li class="tag">Mantenimiento de Hardware</li>
+              <li class="tag">Diseño Funcional de Aplicaciones</li>
+              <li class="tag">Pruebas e Iteración en Equipo</li>
+            </ul>
+          </div>
+
+          <div class="skill-block reveal-block" style="--delay: 0.22s;">
+            <h3>Competencias Personales &amp; Extras</h3>
+            <p class="skill-desc">Actitud laboral, comunicación, entrenamiento físico e idiomas.</p>
+            <ul class="tag-list">
+              <li class="tag tag-blue">Responsabilidad y Compromiso</li>
+              <li class="tag tag-blue">Facilidad para Aprender</li>
+              <li class="tag">Buena Comunicación</li>
+              <li class="tag">Resolución de Problemas</li>
+              <li class="tag">Trabajo en Equipo</li>
+              <li class="tag tag-yellow">Rutinas de Entrenamiento Físico</li>
+              <li class="tag">Español (Nativo) • Inglés (Básico)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <div class="contact-banner reveal-block">
+          <div class="contact-info">
+            <span class="section-kicker">Contacto Directo</span>
+            <h2>¿Hablamos sobre una oportunidad o proyecto?</h2>
+            <p>
+              Estoy disponible para oportunidades laborales iniciales (gimnasios, soporte técnico o áreas afines) y proyectos de robótica o desarrollo web. Podés escribirme por correo o comunicarte por teléfono.
+            </p>
+          </div>
+
+          <div class="contact-cards">
+            <div class="contact-item">
+              <span class="contact-label">Correo electrónico</span>
+              <a href="mailto:brabasualdo4@gmail.com" class="contact-value" id="email-text">brabasualdo4@gmail.com</a>
+              <button type="button" class="copy-btn" data-copy-target="email-text" data-copy-label="Correo copiado al portapapeles">
+                Copiar correo
+              </button>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-label">Teléfono / WhatsApp</span>
+              <a href="tel:+5493517310050" class="contact-value" id="phone-text">3517310050</a>
+              <button type="button" class="copy-btn" data-copy-target="phone-text" data-copy-label="Teléfono copiado al portapapeles">
+                Copiar teléfono
+              </button>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-label">Ubicación y Edad</span>
+              <p class="contact-value">Córdoba, Argentina</p>
+              <span class="contact-note">18 años • Instituto Privado Mixto San Agustín</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Braian Nahuel Basualdo — Córdoba, Argentina</p>
+      <div class="footer-links">
+        <a href="#inicio" id="back-to-top">Volver arriba ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal accesible para evidencia visual -->
+  <div class="modal-backdrop" id="evidence-modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-panel">
+      <div class="modal-head">
+        <h3 id="modal-title">Evidencia del proyecto</h3>
+        <button type="button" class="modal-close" id="modal-close-btn" aria-label="Cerrar ventana de evidencia">✕</button>
+      </div>
+      <div class="modal-content">
+        <img id="modal-image" src="" alt="" width="640" height="380">
+        <p id="modal-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Aviso flotante (toast) -->
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
